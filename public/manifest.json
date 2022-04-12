@@ -1,0 +1,20 @@
+{
+    "short_name": "kiskba",
+    "name": "kiskba",
+    "start_url": "./",
+    "scope": "./",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "theme_color": "#3367D6",
+    "icons": [
+        {
+            "src": "static/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }, {
+            "src": "static/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

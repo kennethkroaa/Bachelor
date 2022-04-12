@@ -1,0 +1,56 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "strict": true,
+        "target": "esnext",
+        "module": "esnext",
+        "jsx": "preserve",
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true,
+        "strictPropertyInitialization": false,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "baseUrl": ".",
+        "typeRoots": [
+            "./node_modules/@types"
+        ],
+        "lib": [
+            "dom",
+            "esnext"
+        ],
+        "noEmit": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "allowJs": true,
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@data/*": ["./src/data/*"],
+            "@modules/*": ["./src/modules/*"],
+            "@pages/*": ["./src/pages/*"],
+            "@store/*": ["./src/store/*"],
+            "@styles/*": ["./styles/*"],
+            "@types/*": ["./src/types/*"],
+            "@public/*": ["./public/*"],
+            "@util/*": ["./src/util/*"],
+            "@i18n": ["./i18n"]
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts",
+        "**/*.spec.tsx",
+        "**/*.test.ts",
+        "**/*.test.tsx"
+    ],
+    "include": [
+        "next-env.d.ts",
+        "**/*.ts",
+        "**/*.tsx", 
+        "i18n.js", 
+        "server.js"
+    ]
+}

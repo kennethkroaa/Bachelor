@@ -1,0 +1,17 @@
+{
+    "home": {
+        "header": "Next.js",
+        "routes": {
+            "counter": "Counter",
+            "home": "Home"
+        }
+    },
+    "counter": {
+        "text": "Pressed the button {{count}} times.",
+        "buttons": {
+            "increment": "Add 1",
+            "decrement": "Remove 1"
+        }
+    },
+    "change-locale": "Change language"
+}

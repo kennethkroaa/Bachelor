@@ -1,0 +1,17 @@
+{
+    "home": {
+        "header": "Next.js",
+        "routes": {
+            "counter": "Teller",
+            "home": "Hjem"
+        }
+    },
+    "counter": {
+        "text": "Trykket på knappen {{count}} ganger.",
+        "buttons": {
+            "increment": "Legg til 1",
+            "decrement": "Fjern 1"
+        }
+    },
+    "change-locale": "Bytt språk"
+}
