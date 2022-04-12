@@ -1,5 +1,5 @@
 # Kildeskatt
-Bacheloroppgave i samarbeid med Skatteetaten. Dette var min første erfaring med React, Next.js, og TypeScript—forvent litt spaghetti spesielt mtp. tidsbegrensninger.
+Bacheloroppgave i samarbeid med Skatteetaten. Dette var min første erfaring med React, Next.js, og TypeScript—forvent litt spaghetti spesielt mtp. tidsbegrensninger. Prosjektet var i en gruppe på tre, hvorav jeg hadde eneansvaret for front-end.
 
 Prosjektet består ellers av følgende:
 * React Hook Form for fleksibel og lightweight input-håndtering, samt yup.js for validering
